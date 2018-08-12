@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginRequest</servlet-name>
+    <servlet-class>com.loginPage.LoginRequest</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginResponse</servlet-name>
+    <servlet-class>com.loginPage.LoginResponse</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginAdmini</servlet-name>
+    <servlet-class>com.admin.LoginAdmini</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddGoods</servlet-name>
+    <servlet-class>com.admin.AddGoods</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminiService</servlet-name>
+    <servlet-class>com.service.AdminiService</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GoodsDao</servlet-name>
+    <servlet-class>com.Dao.GoodsDao</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ListGoods</servlet-name>
+    <servlet-class>com.admin.ListGoods</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateGoods</servlet-name>
+    <servlet-class>com.admin.UpdateGoods</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SetGoods</servlet-name>
+    <servlet-class>com.admin.SetGoods</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteGoods</servlet-name>
+    <servlet-class>com.admin.DeleteGoods</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ProductsNameList</servlet-name>
+    <servlet-class>com.admin.ProductsNameList</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SelectGoodsName</servlet-name>
+    <servlet-class>com.admin.SelectGoodsName</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddGoodsName</servlet-name>
+    <servlet-class>com.admin.AddGoodsName</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteProducts</servlet-name>
+    <servlet-class>com.admin.DeleteProducts</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SetProducts</servlet-name>
+    <servlet-class>com.admin.SetProducts</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateProducts</servlet-name>
+    <servlet-class>com.admin.UpdateProducts</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddProductsAreaName</servlet-name>
+    <servlet-class>com.admin.AddProductsAreaName</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BuyerListBuyPage</servlet-name>
+    <servlet-class>Buyer.BuyerListBuyPage</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BuyerListComfirmPage</servlet-name>
+    <servlet-class>Buyer.BuyerListComfirmPage</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Buyadd</servlet-name>
+    <servlet-class>Buyer.Buyadd</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Sender</servlet-name>
+    <servlet-class>Buyer.Sender</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BuyChangeStatus</servlet-name>
+    <servlet-class>Buyer.BuyChangeStatus</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Sender_check</servlet-name>
+    <servlet-class>Buyer.Sender_check</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>LoginRequest</servlet-name>
+    <url-pattern>/servlet/LoginRequest</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginResponse</servlet-name>
+    <url-pattern>/servlet/LoginResponse</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginAdmini</servlet-name>
+    <url-pattern>/servlet/LoginAdmini</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddGoods</servlet-name>
+    <url-pattern>/servlet/AddGoods</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminiService</servlet-name>
+    <url-pattern>/servlet/AdminiService</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GoodsDao</servlet-name>
+    <url-pattern>/servlet/GoodsDao</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ListGoods</servlet-name>
+    <url-pattern>/servlet/ListGoods</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateGoods</servlet-name>
+    <url-pattern>/servlet/UpdateGoods</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SetGoods</servlet-name>
+    <url-pattern>/servlet/SetGoods</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteGoods</servlet-name>
+    <url-pattern>/servlet/DeleteGoods</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProductsNameList</servlet-name>
+    <url-pattern>/servlet/ProductsNameList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectGoodsName</servlet-name>
+    <url-pattern>/servlet/SelectGoodsName</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddGoodsName</servlet-name>
+    <url-pattern>/servlet/AddGoodsName</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteProducts</servlet-name>
+    <url-pattern>/servlet/DeleteProducts</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SetProducts</servlet-name>
+    <url-pattern>/servlet/SetProducts</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateProducts</servlet-name>
+    <url-pattern>/servlet/UpdateProducts</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddProductsAreaName</servlet-name>
+    <url-pattern>/servlet/AddProductsAreaName</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BuyerListBuyPage</servlet-name>
+    <url-pattern>/servlet/BuyerListBuyPage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BuyerListComfirmPage</servlet-name>
+    <url-pattern>/servlet/BuyerListComfirmPage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Buyadd</servlet-name>
+    <url-pattern>/servlet/Buyadd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Sender</servlet-name>
+    <url-pattern>/servlet/Sender</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BuyChangeStatus</servlet-name>
+    <url-pattern>/servlet/BuyChangeStatus</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Sender_check</servlet-name>
+    <url-pattern>/servlet/Sender_check</url-pattern>
+  </servlet-mapping>
+
+</web-app>
